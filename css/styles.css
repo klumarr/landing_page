@@ -107,7 +107,7 @@ body {
     border: 1px solid #fff; /* For debugging */
     width: 500px;
     height: 250px;
-    background-color: #6d6f73;
+    background-color: #585f6c;
     align-items: center;
     
 }
@@ -119,5 +119,75 @@ body {
 }
 
 .info-container {
+    border: 1px solid black; /* For debugging */
+    width: auto;
+    height: 500px;
+    justify-content: center;
     
+    
+}
+.info-title {
+    border: 1px solid black; /* For debugging */
+    text-align: center;
+    height: 120px;
+    width: auto;
+    
+    
+}
+.info-title-text {
+    border: 2px solid black; /* For debugging */
+    width: auto;
+    height: 120px;
+    font-size: 36px;
+    font-weight: bolder;
+    padding-top: 30px;
+    
+    
+
+}
+
+.info-box-container {
+    border: 1px solid black; /* For debugging */
+    display: flex;
+    width: auto;
+    justify-content: center;
+
+
+}
+.box-1 {
+    border: 1px solid black; /* For debugging */
+    width: 220px;
+    padding: 0px 20px;
+    font-size: 18px;
+    text-align: center;
+    font: grey;
+
+    
+
+}
+.image-1 {
+    border: 4px solid #3882F6; /* For debugging */
+    width: 170px;
+    height: 170px;
+    border-radius: 13px;
+  
+}
+
+.quote-container {
+    border: 1px solid black; /* For debugging */
+    
+    align-items: center;
+    
+
+}
+.quote-text {
+    border: 1px solid black; /* For debugging */
+    width: 1000px;
+}
+.quote-text-1 {
+    
+}
+.quote-text-2 {
+    justify-content: flex-end;
+
 }
