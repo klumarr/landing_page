@@ -31,11 +31,14 @@ body {
     
 }
 .header-logo {
-    font: #f9faf8;
+    color: #f9faf8;
     font-size: 24px;
+    font-weight: bold;
 }
 .header-link {
-    font: #E5E7EB;
+    border: 1px solid #fff; /* For debugging */
+    color: #E5E7EB;
+    display: flex;
     font-size: 18px;
 }
 
@@ -43,9 +46,8 @@ body {
     border: 1px solid #fff; /* For debugging */
     display: flex;
     justify-content: flex-end;
-    font: #E5E7EB;
-    
-    
+    gap: 15px;
+    color: #c8c9cd;
 
 }
 
@@ -83,11 +85,11 @@ body {
 .main-text {
     font-size: 48px;
     font-weight: bolder ;
-    font: #f9faf8;
+    color: #f9faf8;
 }
 .secondary-text {
-    font-size: 18px;
-    font: #e5e7eb;
+    font-size: 20px;
+    color: #a5a5a5;
 }
 
 .button {
@@ -108,14 +110,17 @@ body {
     width: 500px;
     height: 250px;
     background-color: #585f6c;
+    display: flex;
+    justify-content: center;
     align-items: center;
     
 }
 .image-text {
     border: 1px solid #fff; /* For debugging */
-    
+    width: 275px;
+    height: 20px;
     text-align: center;
-    align-items: center;
+    
 }
 
 .info-container {
@@ -160,7 +165,7 @@ body {
     padding: 0px 20px;
     font-size: 18px;
     text-align: center;
-    font: grey;
+    color: #6c6c6c;
 
     
 
@@ -175,19 +180,99 @@ body {
 
 .quote-container {
     border: 1px solid black; /* For debugging */
-    
+    display: flex;
+    width: auto;
+    height: 430px;
+    justify-content: center;
     align-items: center;
+    background-color: #E5E7EB;
     
-
 }
 .quote-text {
     border: 1px solid black; /* For debugging */
-    width: 1000px;
+    width: 800px;
+    height: 200px;
+    
+
 }
 .quote-text-1 {
+    border: 2px solid black; /* For debugging */
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
     
 }
 .quote-text-2 {
-    justify-content: flex-end;
+    border: 1px solid black; /* For debugging */
+    font-size: 22px;
+    text-align: right;
+    font-weight: bolder;
+}
 
+.action-container {
+    border: 1px solid black; /* For debugging */
+    width: auto;
+    height: 350px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.action-box {
+    border: 2px solid black; /* For debugging */
+    background-color: #3882F6;
+    width: 1025px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+
+}
+.call-to-action-box {
+    border: 3px solid black; /* For debugging */
+    width: 800px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.call-to-action-text {
+    border: 1px solid black; /* For debugging */
+    width: 650px;
+    
+    
+}
+.call-to-action-text-1 {
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.call-to-action-text-2 {
+    border: 1px solid black; /* For debugging */
+    width: 650px;
+    font-size: 18.5px;
+    color: #E5E7EB;
+
+}
+.call-to-action-button {
+    border: 1px solid black; /* For debugging */
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-up-2 {
+    padding: 8px 40px;
+    color: white;
+    background-color: #3882F6;
+    border-style: solid;
+    border-color: white;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
 }
