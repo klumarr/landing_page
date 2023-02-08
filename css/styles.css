@@ -4,7 +4,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
 }
+
+
 
 body {    
 }
@@ -12,7 +16,7 @@ body {
 .header-container {
     color:white;
     background-color: #1f2937;
-    border: 1px solid #fff; /* For debugging */
+    border visibility: hidden; : 1px solid #fff;  /* For debugging */  
     display: flex;
     width: auto;
     height: 80px;
@@ -23,7 +27,7 @@ body {
 }
 
 .header-menu {
-    border: 1px solid #fff; /* For debugging */
+    
     display: flex;
     width: 1000px;
     justify-content: space-between;
@@ -36,14 +40,14 @@ body {
     font-weight: bold;
 }
 .header-link {
-    border: 1px solid #fff; /* For debugging */
-    color: #E5E7EB;
+    
+    color: #a2a2a2;
     display: flex;
     font-size: 18px;
 }
 
 .links {
-    border: 1px solid #fff; /* For debugging */
+    
     display: flex;
     justify-content: flex-end;
     gap: 15px;
@@ -54,7 +58,7 @@ body {
 .main-container {
     color: white;
     background-color: #1f2937;
-    border: 1px solid #fff; /* For debugging */
+    
     display: flex;
     width: auto;
     height: 450px;
@@ -64,22 +68,22 @@ body {
 }
 
 .main-menu-box {
-    border: 1px solid #fff; /* For debugging */
+    
     width: 1000px;
     display: flex;
 }
 
 .text {
-    border: 1px solid #fff; /* For debugging */
+    
     width: 500px;
     height: 250px;
 
 }
 .text-box {
-    border: 1px solid #fff; /* For debugging */
+    
 }
 .main-text, .secondary-text, .button {
-    border: 1px solid #fff; /* For debugging */
+    
 }
 
 .main-text {
@@ -89,24 +93,26 @@ body {
 }
 .secondary-text {
     font-size: 20px;
+    padding: 5px;
     color: #a5a5a5;
 }
 
 .button {
-    
+    padding-top: 10px;
 }
 .sign-up {
-    padding: 10px 32px;
+    padding: 10px 40px;
     color: white;
     background-color: #3882F6;
     border: none;
     text-align: center;
-    font-size: 16px;
+    font-size: 17px;
+    font-weight: 600;
     border-radius: 10px;
 }
 
 .image {
-    border: 1px solid #fff; /* For debugging */
+    
     width: 500px;
     height: 250px;
     background-color: #585f6c;
@@ -116,7 +122,7 @@ body {
     
 }
 .image-text {
-    border: 1px solid #fff; /* For debugging */
+    
     width: 275px;
     height: 20px;
     text-align: center;
@@ -124,7 +130,6 @@ body {
 }
 
 .info-container {
-    border: 1px solid black; /* For debugging */
     width: auto;
     height: 500px;
     justify-content: center;
@@ -132,7 +137,6 @@ body {
     
 }
 .info-title {
-    border: 1px solid black; /* For debugging */
     text-align: center;
     height: 120px;
     width: auto;
@@ -140,7 +144,6 @@ body {
     
 }
 .info-title-text {
-    border: 2px solid black; /* For debugging */
     width: auto;
     height: 120px;
     font-size: 36px;
@@ -152,7 +155,6 @@ body {
 }
 
 .info-box-container {
-    border: 1px solid black; /* For debugging */
     display: flex;
     width: auto;
     justify-content: center;
@@ -160,7 +162,6 @@ body {
 
 }
 .box-1 {
-    border: 1px solid black; /* For debugging */
     width: 220px;
     padding: 0px 20px;
     font-size: 18px;
@@ -171,7 +172,7 @@ body {
 
 }
 .image-1 {
-    border: 4px solid #3882F6; /* For debugging */
+    border: 4px solid #3882F6; 
     width: 170px;
     height: 170px;
     border-radius: 13px;
@@ -179,7 +180,6 @@ body {
 }
 
 .quote-container {
-    border: 1px solid black; /* For debugging */
     display: flex;
     width: auto;
     height: 430px;
@@ -189,28 +189,26 @@ body {
     
 }
 .quote-text {
-    border: 1px solid black; /* For debugging */
-    width: 800px;
+    width: 790px;
     height: 200px;
     
 
 }
 .quote-text-1 {
-    border: 2px solid black; /* For debugging */
     font-size: 36px;
     font-style: italic;
+    font-weight: 300;
     color: #1f2937;
     
 }
 .quote-text-2 {
-    border: 1px solid black; /* For debugging */
     font-size: 22px;
     text-align: right;
+    margin-right: 10px;
     font-weight: bolder;
 }
 
 .action-container {
-    border: 1px solid black; /* For debugging */
     width: auto;
     height: 350px;
     justify-content: center;
@@ -221,7 +219,6 @@ body {
 }
 
 .action-box {
-    border: 2px solid black; /* For debugging */
     background-color: #3882F6;
     width: 1025px;
     height: 150px;
@@ -233,7 +230,6 @@ body {
 
 }
 .call-to-action-box {
-    border: 3px solid black; /* For debugging */
     width: 800px;
     height: 60px;
     display: flex;
@@ -242,7 +238,6 @@ body {
     
 }
 .call-to-action-text {
-    border: 1px solid black; /* For debugging */
     width: 650px;
     
     
@@ -253,14 +248,12 @@ body {
 
 }
 .call-to-action-text-2 {
-    border: 1px solid black; /* For debugging */
     width: 650px;
     font-size: 18.5px;
     color: #E5E7EB;
 
 }
 .call-to-action-button {
-    border: 1px solid black; /* For debugging */
     width: 150px;
     display: flex;
     justify-content: center;
@@ -275,4 +268,15 @@ body {
     text-align: center;
     font-size: 16px;
     border-radius: 10px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    font-size: 19px;
+    height: 100px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
